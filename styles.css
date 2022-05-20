@@ -1,0 +1,173 @@
+/*RESET STYLES*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*GLOBAL STYLES*/
+
+html {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 22px;
+    line-height: normal;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* ---------HEADER---------- */
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    top: 0;
+    left:0;
+}
+
+header .logo {
+    margin-left: 10px;
+}
+
+header .nav {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    width: 350px;
+}
+
+header .nav a{
+    padding: 5px;
+    color:white;
+}
+
+/* ------MISSION--------- */
+
+.missioncontainer {
+    display: flex;
+    position: relative;
+    top: 70px;
+    width: 1200px;
+    height:700px;
+    background-image: url(resources/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+
+}
+
+#missioncontainertext {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+.missioncontainer h2 {
+    padding: 20px 0 5px 0;
+}
+
+.missioncontainer h4 {
+    padding: 20px;
+}
+
+/* ------FEATURED TEAS------ */
+
+.featuredtea {
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    margin: 150px auto 90px auto;
+}
+
+#col1 {
+    position: relative;
+    display: inline-flex;
+}
+
+#col2 {
+    position: relative;
+    display: inline-flex
+}
+
+#pic {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+ /* ------LOCATIONS------ */
+
+.locationcontainer {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    background-image: url(resources/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+#locationheader {
+    margin-top: 60px;
+}
+
+#locationboxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.locbox {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3.5;
+    opacity: 1;
+}
+
+.locbox h6 {
+    font-weight: 100;
+}
+
+/* ------CONTACT INFO------ */
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    line-height: 3;
+}
+
+.contactcontainer h6 {
+    font-weight: 100;
+}
+
+/* ------FOOTER------ */
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+
+}
